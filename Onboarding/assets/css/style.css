@@ -4135,6 +4135,7 @@ input[type="radio"]:checked+label:before {
   width: 100%;
   z-index: 99;
   background-color: white;
+  opacity: .9;
   box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.15);
   padding: 10px 0;
   display: none;
@@ -4147,13 +4148,21 @@ input[type="radio"]:checked+label:before {
   }
 }
 
+
 .site-header.sticky .navigation .mainmenu>li>a {
   color: #fff;
 }
 
+@media only screen and (min-width: 1199px) {
+  .site-header.sticky .navigation .mainmenu>li>a {
+    color: black
+  }
+}
+
+
 .site-header.sticky .navigation .mainmenu>li>a:hover,
 .site-header.sticky .navigation .mainmenu>li>a.active {
-  color: #e9204f;
+  color: #FF0000;
 }
 
 /*--------------------------------------------------------------
