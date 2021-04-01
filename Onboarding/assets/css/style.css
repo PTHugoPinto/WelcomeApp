@@ -4596,7 +4596,7 @@ a:active {
 .mobile-sidebar-menu .navigation .mainmenu>li>a.active,
 .mobile-sidebar-menu .navigation .mainmenu>li>a:hover,
 .mobile-sidebar-menu .navigation .mainmenu>li>a:focus {
-  color: #e9204f;
+  color: #FF0000;
 }
 
 .mobile-sidebar-menu .navigation .mainmenu>li>a:before {
@@ -4676,7 +4676,7 @@ a:active {
 }
 
 .mobile-sidebar-menu .navigation ul.sub-menu li a:hover {
-  color: #e9204f;
+  color: #ff0000;
   padding-left: 30px;
 }
 
