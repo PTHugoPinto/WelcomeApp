@@ -158,13 +158,16 @@ body {
 }
 
 .content h1 {
-    font-size: 80px;
+    font-size: 15px;
     color: black;
+    margin-bottom: 50px;
 }
 
-.content h1 {
-    font-size: 30px;
-    color: black;
+@media only screen and (min-width: 1199px) {
+    .content h1 {
+        font-size: 50px;
+        color: black;
+    }
 }
 
 .content .btn {
