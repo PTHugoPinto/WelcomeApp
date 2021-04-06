@@ -3570,20 +3570,20 @@ input::-moz-focus-inner {
   -webkit-transition: ease-in 0.25s;
   transition: ease-in 0.25s;
   background-color: #ff0000;
-  padding: 12px 25px;
+  padding: 12px 50px;
 }
 
 
 
 @media (min-width: 768px) {
   .btn-primary {
-    padding: 14px 35px;
+    padding: 14px 66px;
   }
 }
 
 @media (min-width: 1200px) {
   .btn-primary {
-    padding: 16px 50px;
+    padding: 16px 66px;
   }
 }
 
