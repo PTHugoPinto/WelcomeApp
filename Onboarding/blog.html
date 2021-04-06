@@ -423,6 +423,33 @@
 	<script src="assets/js/contact.js"></script>
 	<script src="assets/js/main.js"></script>
 	<!-- main-js -->
+
+	<!-- REQUEST FULL SCREEN MODE -->
+	<script>
+		function getFullscreenElement() {
+			return document.fullscreenElement ||
+				document.webkitfullscreenElement ||
+				document.mozfullscreenElement ||
+				document.msfullscreenElement;
+		}
+
+		function toggleFullscreen() {
+			if (getFullscreenElement()) {
+				document.exitFullscreen();
+			} else {
+				document.documentElement.requestFullscreen().catch(console.log);
+			}
+		}
+
+		document.addEventListener("dblclick", () => {
+			toggleFullscreen();
+		});
+
+		document.addEventListener("fullscreenchange", () => {
+			console.log("full Screen Changed !")
+		})
+	</script>
+
 </body>
 
 </html>
