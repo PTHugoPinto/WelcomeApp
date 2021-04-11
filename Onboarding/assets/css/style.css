@@ -21,6 +21,11 @@ body {
   }
 }
 
+
+a:hover {
+  color: #ff0000;
+}
+
 /*-------------------------------------------------
     [ ## Heading ]
 */
@@ -5539,6 +5544,8 @@ a:active {
   }
 }
 
+/*Title*/
+
 .service-item .title {
   color: black;
   font-size: 20px;
@@ -5595,6 +5602,74 @@ a:active {
     left: 25px;
   }
 }
+
+/*Title END*/
+
+
+
+/*Title II*/
+
+.service-item .title2 {
+  color: black;
+  font-size: 13px;
+  line-height: 1.25em;
+  margin-bottom: 0;
+  font-weight: 700;
+  padding-left: 40px;
+  -webkit-transition: all 0.15s linear 0ms;
+  transition: all 0.15s linear 0ms;
+  position: relative;
+}
+
+
+@media (min-width: 1200px) {
+  .service-item .title2 {
+    font-size: 13px;
+  }
+}
+
+
+@media (min-width: 1400px) {
+  .service-item .title2 {
+    font-size: 13px;
+    padding-left: 45px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .home .title2 {
+    font-size: 13px;
+    padding-left: 45px;
+  }
+}
+
+
+
+.service-item .title2:before {
+  position: absolute;
+  content: '\f054';
+  font-family: "FujitsuSansMedium";
+  font-size: 13px;
+  padding: 0;
+  left: 20px;
+  top: 1px;
+  color: inherit;
+  -webkit-transition: all 0.15s linear 0ms;
+  transition: all 0.15s linear 0ms;
+}
+
+
+
+@media (min-width: 1400px) {
+  .service-item .title2:before {
+    left: 13px;
+  }
+}
+
+
+/*Title II END*/
+
+
 
 .service-item:hover {
   background-color: #ff0000;

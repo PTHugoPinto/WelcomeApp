@@ -159,6 +159,7 @@ body {
 
 .content h1 {
     font-size: 15px;
+    font-weight: 500;
     color: black;
     margin-bottom: 50px;
 }
