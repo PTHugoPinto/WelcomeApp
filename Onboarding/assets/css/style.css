@@ -9714,3 +9714,32 @@ a:active {
 .single-contact-info p a:hover {
   color: #ff0000;
 }
+
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.features-alt i {
+  font-size: 42px;
+}
+
+.features-alt h4 {
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+.features-alt h3 {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.features-alt p {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.text-muted {
+  color: #98a6ad !important;
+}
