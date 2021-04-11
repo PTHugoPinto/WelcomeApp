@@ -9743,3 +9743,16 @@ a:active {
 .text-muted {
   color: #98a6ad !important;
 }
+
+.centered_img_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 10px;
+  border-radius: 5px 25px;
+}
