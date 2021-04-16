@@ -38,6 +38,7 @@
 	<link rel="stylesheet" href="assets/css/fontawesome.all.min.css" />
 
 	<link rel="stylesheet" href="../css/transition.css" />
+	<link rel="stylesheet" href="./assets/css/accordion.css">
 
 
 	<style>
@@ -57,9 +58,9 @@
 
 <body data-bs-spy="scroll" data-bs-target=".navigation-area">
 	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-		Start Site Header
-	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-	<header class="site-header default-header-style sticky">
+			Start Site Header
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+	<header class="site-header header-style-one sticky">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-12">
@@ -79,10 +80,13 @@
 									<div class="menu-content">
 										<ul class="mainmenu">
 											<li>
-												<a class="nav-link" href="./index.html">Home</a>
+												<a class="nav-link" href="index.html">Home</a>
 											</li>
 											<li>
-												<a class="nav-link" href="#contact-block">Contactos</a>
+												<a class="nav-link" href="./404.html">Braga</a>
+											</li>
+											<li>
+												<a class="nav-link" href="./404.html">Porto</a>
 											</li>
 										</ul> <!-- /.menu-list -->
 									</div> <!-- /.hours-content-->
@@ -99,7 +103,7 @@
 			</div><!-- /.row -->
 		</div><!-- /.container-fluid -->
 		<div class="mobile-sidebar-menu sidebar-menu">
-			<!-- 	<div class="overlaybg"></div>-->
+			<div class="overlaybg"></div>
 		</div>
 	</header>
 	<!--~~./ end site header ~~-->
@@ -113,57 +117,125 @@
 		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 			Start Services Block
 		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-		<div id="service-block" class="services-block pd-t-170" style="margin-bottom: 350px; margin-top: 66px;">
+		<div id="service-block" class="services-block pd-t-170">
 			<div class="container container-1200">
 				<div class="row justify-content-center">
 					<div class="col-lg-8">
 						<div class="section-title text-center">
 							<h2 class="title-main">
-								02 <span>Como chegar</span>
+								02 <span>A Minha Área</span>
+
 							</h2><!-- /.title-main -->
 							<p class="sub-title">shaping tomorrow with you</p>
 						</div><!-- /.section-title -->
 					</div><!-- /.col-lg-8 -->
 				</div><!-- /.row -->
 
-				<div class="row services-items-list gutters-30">
-					<div class="col-lg-4 col-md-6">
-						<a class="service-item" href="./ComoChegar_LX.html">
-							<div class="service-icon">
-								<img src="assets/images/icon/services/1.png" alt="Icon" />
-							</div>
-							<!-- /.service-icon -->
-							<h3 class="title">Fujitsu Lisboa</h3>
-						</a>
-						<!-- /.service-item -->
-					</div>
-					<!-- /.col-lg-4 -->
-					<div class="col-lg-4 col-md-6">
-						<a class="service-item" href="./404.html">
-							<div class="service-icon">
-								<img src="assets/images/icon/services/1.png" alt="Icon" />
-							</div>
-							<!-- /.service-icon -->
-							<h3 class="title">Fujitsu Braga</h3>
-						</a>
-						<!-- /.service-item -->
-					</div>
-					<!-- /.col-lg-4 -->
-					<div class="col-lg-4 col-md-6">
-						<a class="service-item" href="./404.html">
-							<div class="service-icon">
-								<img src="assets/images/icon/services/1.png" alt="Icon" />
-							</div>
-							<!-- /.service-icon -->
-							<h3 class="title">Fujitsu Porto</h3>
-						</a>
-						<!-- /.service-item -->
-					</div>
-					<!-- /.col-lg-4 -->
-				</div><!-- /.row -->
-			</div><!-- /.container -->
+
+
+
+				<h2 class="entry-title">
+					<p>O seu dia-a-dia na Fujitsu Portugal</p>
+				</h2>
+				<div class="entry-content">
+					<p>
+						Respondemos a algumas questões que poderá levantar no seu dia-a-dia na Fujitsu Portugal
+					</p>
+					<br>
+
+				</div>
+				<!--~~./ end services block ~~-->
+			</div>
+
 		</div>
-		<!--~~./ end services block ~~-->
+
+
+
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Start accordion I
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<div class="body-accordion">
+			<div class="wrapper">
+				<div class="image__wrapper">
+					<div class="image__wrapper_inner">
+
+					</div>
+					<img class="box" src="./assets/images/accordion/illustration-box-desktop.png" alt="box">
+				</div>
+				<div class="accordion__wrapper">
+					<h1 class="title__accordion">O meu PC</h1>
+					<div class="questions__accordions">
+						<div class="question-answer__accordion">
+							<div class="question">
+								<h3 class="title__question">
+									How many team members can I invite?
+								</h3>
+								<img src="./assets/images/accordion/icon-arrow-down.svg">
+							</div>
+							<div class="answer">
+								You can invite up to 2 additional users on the Free plan. There is no limit on
+								team members for the Premium plan.
+							</div>
+						</div>
+
+						<div class="question-answer__accordion">
+							<div class="question">
+								<h3 class="title__question">
+									What is the maximum file upload size?
+								</h3>
+								<img src="./assets/images/accordion/icon-arrow-down.svg">
+							</div>
+							<div class="answer ">
+								No more than 2GB. All files in your account must fit your allotted storage space.
+							</div>
+						</div>
+
+						<div class="question-answer__accordion">
+							<div class="question">
+								<h3 class="title__question">
+									How do I reset my password?
+								</h3>
+								<img src="./assets/images/accordion/icon-arrow-down.svg">
+							</div>
+							<div class="answer ">
+								Click “Forgot password” from the login page or “Change password” from your profile page.
+								A reset link will be emailed to you.
+							</div>
+						</div>
+
+						<div class="question-answer__accordion">
+							<div class="question">
+								<h3 class="title__question">
+									Can I cancel my subscription?
+								</h3>
+								<img src="./assets/images/accordion/icon-arrow-down.svg">
+							</div>
+							<div class="answer ">
+								Yes! Send us a message and we’ll process your request no questions asked.
+							</div>
+						</div>
+
+						<div class="question-answer__accordion">
+							<div class="question">
+								<h3 class="title__question">
+									Do you provide additional support?
+								</h3>
+								<img src="./assets/images/accordion/icon-arrow-down.svg">
+							</div>
+							<div class="answer ">
+								Chat and email support is available 24/7. Phone lines are open during normal business
+								hours.
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		<!--~~./ end accordion I ~~-->
+
 
 
 		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -222,11 +294,14 @@
 											<h2 class="widget-title"><span>Quick Link</span></h2>
 											<div class="widget-content">
 												<ul>
-													<li><a href="https://www.fujitsu.com/pt/services/">Serviços</a></li>
-													<li><a href="https://www.fujitsu.com/pt/products/">Produtos</a></li>
+													<li><a href="https://www.fujitsu.com/pt/services/">Serviços</a>
+													</li>
+													<li><a href="https://www.fujitsu.com/pt/products/">Produtos</a>
+													</li>
 													<li><a href="https://www.fujitsu.com/pt/solutions/">Soluções</a>
 													</li>
-													<li><a href="https://www.fujitsu.com/pt/about/">Sobre a Fujitsu</a>
+													<li><a href="https://www.fujitsu.com/pt/about/">Sobre a
+															Fujitsu</a>
 													</li>
 												</ul>
 											</div>
