@@ -29,7 +29,7 @@ html {
 }
 
 .wrapper {
-    background: whitesmoke;
+    background: white;
     border-radius: 5px;
     height: 509px;
     width: 920px;
@@ -112,6 +112,8 @@ html {
     background-position: 120% center;
 }
 
+
+
 .box {
     position: absolute;
     top: 42%;
@@ -123,6 +125,7 @@ html {
 @media (max-width: 700px) {
     .body-accordion {
         margin-top: 166px;
+        margin-bottom: 350px;
     }
 
 
